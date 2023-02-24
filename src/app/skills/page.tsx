@@ -119,7 +119,10 @@ export default async function Skills() {
         <div className="flow-root">
           <ul role="list" className="grid grid-cols-12 w-full">
             {data.map((item) => (
-              <li key={item.technology} className="col-span-5 even:col-start-7">
+              <li
+                key={item.technology}
+                className="col-span-12 md:col-span-5 md:even:col-start-7"
+              >
                 <div className="relative pb-8">
                   <div className="relative flex space-x-3">
                     <div>
@@ -137,10 +140,10 @@ export default async function Skills() {
                     </div>
                     <div className="flex min-w-0 flex-1 justify-between space-x-4 pt-1">
                       <div>
-                        <p className="text-lg font-bold text-gray-700 mb-1">
+                        <p className="text-lg font-bold text-gray-700 mb-1 dark:text-zinc-100">
                           {item.technology}
                         </p>
-                        <div className="text-base text-gray-500">
+                        <div className="text-base text-gray-500 dark:text-zinc-400">
                           {item.list.map((listItem) => {
                             return <p key={listItem}>{listItem}</p>;
                           })}

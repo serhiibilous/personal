@@ -20,7 +20,7 @@ export function Questions({ questions, title }: Questions) {
             {({ open }) => (
               <>
                 <dt>
-                  <Disclosure.Button className="flex w-full items-start justify-between text-left text-gray-900">
+                  <Disclosure.Button className="flex w-full items-start justify-between text-left text-gray-900 dark:text-zinc-100">
                     <span className="text-base font-semibold leading-7">
                       {question.question}
                     </span>
@@ -37,7 +37,7 @@ export function Questions({ questions, title }: Questions) {
                   </Disclosure.Button>
                 </dt>
                 <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                  <p className="text-base leading-7 text-gray-600">
+                  <p className="text-base leading-7 text-gray-600 dark:text-zinc-400">
                     {question.answer}
                   </p>
                 </Disclosure.Panel>
