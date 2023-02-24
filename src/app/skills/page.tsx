@@ -129,7 +129,7 @@ export default async function Skills() {
                       <span
                         className={clsx(
                           item.iconBackground,
-                          "h-8 w-8 rounded-full flex items-center justify-center ring-8 ring-white"
+                          "h-8 w-8 rounded-full flex items-center justify-center ring-8 ring-white dark:bg-transparent"
                         )}
                       >
                         <item.icon

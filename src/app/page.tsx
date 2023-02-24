@@ -6,6 +6,17 @@ export const metadata = {
   title: "Software Engineer, Front-End | Serhii Bilous",
   description:
     "Hi, I am Serhii Bilous, a Software engineer and Javascript expert with over nine years of commercial experience. I am Front-End focused developer who is also doing a Back-end job.",
+  colorScheme: "light",
+  creator: "Serhii Bilous",
+  openGraph: {
+    images: [
+      {
+        url: "https://serhiibilous.com/android-chrome-512x512.png",
+        width: 512,
+        height: 512,
+      },
+    ],
+  },
 };
 
 export default function Home() {

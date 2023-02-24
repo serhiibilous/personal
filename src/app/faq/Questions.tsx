@@ -11,7 +11,7 @@ interface Questions {
 export function Questions({ questions, title }: Questions) {
   return (
     <div className="mb-10">
-      <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">
+      <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900 dark:text-zinc-100">
         {title}
       </h2>
       <dl className=" space-y-6 divide-y divide-gray-900/10">
