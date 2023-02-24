@@ -23,10 +23,10 @@ export const navigation: any[] = [
     link: "/skills",
     title: "Skills",
   },
-  {
-    link: "/resume",
-    title: "Resume",
-  },
+  // {
+  //   link: "/resume",
+  //   title: "Resume",
+  // },
   {
     link: "/faq",
     title: "Faq",

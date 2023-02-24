@@ -12,7 +12,7 @@ export const data = [
         answer: (
           <>
             The short answer is now YES, but in the future (after 2 years) this
-            can be a case if Company want to work with me.
+            can be a case.
             <br />
             <br />
             <div className="rounded-md bg-blue-50 p-4">
@@ -49,7 +49,7 @@ export const data = [
                       card.
                     </p>
                     <p>
-                      This is the only option that works for me in my case{" "}
+                      This is the only option that works for me{" "}
                       <a
                         className="text-indigo-600 font-bold underline hover:no-underline"
                         href="https://www.uscis.gov/green-card/green-card-eligibility/green-card-for-employment-based-immigrants"
@@ -122,7 +122,7 @@ export const data = [
     category: "Personal",
     questions: [
       {
-        question: "What I am looking for project role company etc.",
+        question: "What am I looking for? The project, role, company, etc.",
         answer: (
           <Prose>
             <p>
@@ -135,11 +135,7 @@ export const data = [
               direction. So the stack is all about JavaScript and Typescript,
               and the technologies can be almost whatever.
             </p>
-            <p>
-              A good team, excellent management (or possibly building it), and
-              work and live balance.
-            </p>
-            <p>That is what I am looking for.</p>
+            <p>Feel free to reach out to me, and let`s discuss this.</p>
           </Prose>
         ),
       },
