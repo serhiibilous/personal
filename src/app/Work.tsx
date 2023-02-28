@@ -133,7 +133,7 @@ export function Work() {
           ))}
         </ol>
         <Button
-          href="/resume/Serhii_Bilous-Senior_Front_End_Engineer.pdf"
+          href="/resume/Serhii Bilous - Senior Front-End Engineer.pdf"
           download={true}
           variant="secondary"
           className="group mt-6 w-full"
