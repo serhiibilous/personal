@@ -7,6 +7,15 @@ export const data = [
     category: "Organizational",
     questions: [
       {
+        question: "Are you legally authorized to work in the US?",
+        answer: (
+          <Prose>
+            I have the legal right to work in the United States and I have a
+            work permit.
+          </Prose>
+        ),
+      },
+      {
         question:
           "Will you now or in the future require employment visa sponsorship?",
         answer: (
@@ -107,15 +116,6 @@ export const data = [
           </Prose>
         ),
       },
-      {
-        question: "Are you legally authorized to work in the US?",
-        answer: (
-          <Prose>
-            I have the legal right to work in the United States and I have a
-            work permit.
-          </Prose>
-        ),
-      },
     ],
   },
   {
@@ -141,12 +141,4 @@ export const data = [
       },
     ],
   },
-  // {
-  //   category: "Work I've done",
-  //   questions: [],
-  // },
-  // {
-  //   category: "Others",
-  //   questions: [],
-  // },
 ];
