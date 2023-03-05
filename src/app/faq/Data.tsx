@@ -1,6 +1,6 @@
 import React from "react";
 import { InformationCircleIcon } from "@heroicons/react/20/solid";
-import { Prose } from "@/components";
+import { Prose } from "@components";
 
 export const data = [
   {

@@ -1,9 +1,10 @@
 import Image from "next/image";
-import { Card, PageLayout } from "@/components";
 
-import sirko from "@/images/projects/sirko.png";
-import bDiary from "@/images/projects/bdiary.webp";
-import carRepair from "@/images/projects/car-repair.webp";
+import { Card, PageLayout } from "@components";
+
+import sirko from "@images/projects/sirko.png";
+import bDiary from "@images/projects/bdiary.webp";
+import carRepair from "@images/projects/car-repair.webp";
 
 export const metadata = {
   title: "Side projects / Startups | Software Engineer, Front-End",

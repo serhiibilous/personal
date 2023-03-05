@@ -1,5 +1,5 @@
-import { Prose, PageLayout } from "@/components";
-import { Work } from "@/app/Work";
+import { Prose, PageLayout } from "@components";
+import { Work } from "../Work";
 
 export const metadata = {
   title:

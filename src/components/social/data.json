@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "name": "GitHub",
+      "link": "https://github.com/serhiibilous",
+      "icon": "github"
+    },
+    {
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com/in/serhii-bilous/",
+      "icon": "linkedin"
+    }
+  ]
+}

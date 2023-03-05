@@ -1,6 +1,6 @@
-import { PageLayout } from "@/components";
-import { Work } from "@/app/Work";
-import { Prose } from "@/components";
+import { PageLayout, Prose } from "@components";
+
+import { Work } from "./Work";
 
 export const metadata = {
   title: "Software Engineer, Front-End | Serhii Bilous",
@@ -41,9 +41,6 @@ export default function Home() {
         <div className="mt-16">
           <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
             <div className="flex flex-col gap-16">
-              {/*{articles.map((article) => (*/}
-              {/*  <Article key={article.slug} article={article} />*/}
-              {/*))}*/}
               <Prose>
                 <h2 className="mt-2">
                   Introduction about me, my work and experiences.
@@ -81,10 +78,7 @@ export default function Home() {
               </Prose>
             </div>
             <div className="space-y-10 lg:pl-16 xl:pl-24">
-              <>
-                {/*<Newsletter />*/}
-                <Work />
-              </>
+              <Work />
             </div>
           </div>
         </div>

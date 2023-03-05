@@ -1,13 +1,13 @@
 import Image from "next/image";
 
-import { Button, Prose } from "@/components";
+import { Button, Prose } from "@components";
 
-import NiX from "@/images/work/n-ix.jpeg";
-import axDraft from "@/images/work/axdraft.jpeg";
-import deem from "@/images/work/deem.jpeg";
-import tfx from "@/images/work/tfx.jpeg";
-import ria from "@/images/work/ria.jpeg";
-import upwork from "@/images/work/upwork.jpeg";
+import NiX from "@images/work/n-ix.jpeg";
+import axDraft from "@images/work/axdraft.jpeg";
+import deem from "@images/work/deem.jpeg";
+import tfx from "@images/work/tfx.jpeg";
+import ria from "@images/work/ria.jpeg";
+import upwork from "@images/work/upwork.jpeg";
 
 function ArrowDownIcon(props: any) {
   return (

@@ -1,5 +1,5 @@
 import React, { PropsWithChildren } from "react";
-import { GitHubIcon, LinkedInIcon, SocialLink } from "@/components";
+import { Social } from "@components";
 
 interface PageLayout extends PropsWithChildren {
   title: string;
@@ -24,30 +24,7 @@ export function PageLayout({
         <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
           {description ? description : intro}
         </p>
-        {withSocial && (
-          <div className="mt-6 flex gap-6">
-            {/*<SocialLink*/}
-            {/*  href="https://twitter.com"*/}
-            {/*  aria-label="Follow on Twitter"*/}
-            {/*  icon={TwitterIcon}*/}
-            {/*/>*/}
-            {/*<SocialLink*/}
-            {/*  href="https://instagram.com"*/}
-            {/*  aria-label="Follow on Instagram"*/}
-            {/*  icon={InstagramIcon}*/}
-            {/*/>*/}
-            <SocialLink
-              href="https://github.com/serhiibilous"
-              aria-label="Follow on GitHub"
-              icon={GitHubIcon}
-            />
-            <SocialLink
-              href="https://www.linkedin.com/in/serhii-bilous/"
-              aria-label="Follow on LinkedIn"
-              icon={LinkedInIcon}
-            />
-          </div>
-        )}
+        {withSocial && <Social className="mt-6 flex gap-6" />}
       </header>
       <div className="mt-16">{children}</div>
     </div>

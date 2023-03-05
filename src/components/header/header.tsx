@@ -4,11 +4,13 @@ import { Fragment } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { Popover, Transition } from "@headlessui/react";
 import clsx from "clsx";
-import { Container } from "@/components";
-import { navigation } from "@/constants";
-import avatarImage from "@/images/sbilous.png";
+
+import { Popover, Transition } from "@headlessui/react";
+
+import { Container } from "@components";
+import { navigation } from "@constants";
+import avatarImage from "@images/sbilous.png";
 
 function CloseIcon(props: any) {
   return (

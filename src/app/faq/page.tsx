@@ -1,6 +1,7 @@
-import { Questions } from "@/app/faq/Questions";
-import { PageLayout } from "@/components";
-import { data } from "@/app/faq/Data";
+import { PageLayout } from "@components";
+
+import { Questions } from "./Questions";
+import { data } from "./Data";
 
 export const metadata = {
   title: "FAQ to Serhii Bilous | Software Engineer, Front-End",
