@@ -1,6 +1,7 @@
 import { CheckIcon } from "@heroicons/react/20/solid";
 import clsx from "clsx";
-import { PageLayout } from "@/components";
+
+import { PageLayout } from "@components";
 
 export const metadata = {
   title: "Soft and Hard Skills | Software Engineer, Front-End",
