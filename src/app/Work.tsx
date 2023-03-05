@@ -115,7 +115,7 @@ export function Work() {
                 </dd>
                 <dt className="sr-only">Date</dt>
                 <dd
-                  className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
+                  className="ml-auto text-xs text-zinc-500 dark:text-zinc-400"
                   aria-label={`${role.start.label ?? role.start} until ${
                     role.end.label ?? role.end
                   }`}
@@ -133,7 +133,7 @@ export function Work() {
           ))}
         </ol>
         <Button
-          href="/resume/Serhii Bilous - Senior Front-End Engineer.pdf"
+          href="https://www.serhiibilous.com/resume/Serhii_Bilous-Senior_Front-End_Engineer.pdf"
           download={true}
           variant="secondary"
           className="group mt-6 w-full"
